@@ -1,0 +1,38 @@
+.forecast-wrapper {
+  display: flex;
+  justify-content: center;
+  gap: 5%;
+  background-color: rgb(174, 215, 235);
+  width: 100%;
+}
+
+h3 {
+  background-color: rgb(174, 215, 235);
+}
+
+.forecast-container {
+  text-align: center;
+  background-color: inherit;
+  color: black;
+}
+
+.forecast-container > :nth-child(3n) {
+  font-size: 1.2rem;
+}
+
+.forecast-container > :nth-child(4n) {
+  font-size: 0.8rem;
+}
+
+.forecast-container img {
+  background-color: inherit;
+}
+.forecast-container p {
+  background-color: inherit;
+  color: black;
+  font-weight: 600;
+}
+
+.forecast-container h4 {
+  background-color: inherit;
+}
